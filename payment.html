@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment Bill</title>
+    <link rel="icon" type="image/x-icon" href="images/tittel.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <script src="javascript/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container_header">
+            <div class="item_header">
+                <a href="index.html"><img src="images/logo.png" alt="" class="logo_hearder"></a>
+            </div>
+            <div class="item_header_link">
+                <a href="broad.html"><b>Broad</b> </a>
+            </div>
+            <div class="item_header_link">
+                <a href="sensors.html"><b>Sensors</b></a>
+            </div>
+            <div class="item_header_link">
+                <a href="accessories.html"><b>Accessories</b></a>
+            </div>
+            <div class="item_header">
+                <a href="cart.html"><img src="images/cart.png" alt="" class="logo_hearder"></a>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="container_payment">
+        <form action="index.html" class="form_payment">
+            <table style="width: 100%;">
+                <tr>
+                    <th style="width:30%"><label for="">ชื่อ-นามสกุล</label></th>
+                    <td style="width:70%"><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <th style="width:30%"><label for="">เบอร์โทรศัพท์</label></th>
+                    <td style="width:70%"><input type="text" name="name" required></td>
+
+                </tr>
+                <tr>
+                    <th style="width:30%"><label for="">Email</label></th>
+                    <td style="width:70%"><input type="email" name="name" required></td>
+                </tr>
+                <tr>
+                    <th style="width:30%"><label for="">ที่อยู่</label></th>
+                    <td style="width:70%"><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <th style="width:30%"><label for="">รูปแบบการชำระเงิน</label></th>
+                    <td style="width:70%">
+                        <select name="payment" id="payment">
+                            <option value="offline">เก็บเงินปลายทาง</option>
+                            <option value="manual">ชำระออนไลน์</option>
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th style="width:30%"><label for="">สลิปเงิน</label></th>
+                    <td style="width:70%"><input type="file" name="name"></td>
+                </tr>
+            </table>
+            <a href="index.html"><input type="submit" value="ยกเลิกคำสั่งซื้อ" class="btn_cart_remove"></a>
+            <a href="payment.html"><input type="submit" value="ยืนยันคำสั่งซื้อ" class="btn_cart_payment"></a>
+        </form>
+
+    </div>
+    <footer>
+        <div class="container_footer">
+            <div class="item_footer">
+                <p><b>จัดส่งสินค้าโดย</b></p>
+                <img src="images/ft_delivery.webp" alt="">
+            </div>
+            <div class="item_footer">
+                <p><b>ช่องทางการชำระ</b></p>
+                <img src="images/ft_payment.webp" alt="">
+            </div>
+            <div class="item_footer">
+                <p><b>ติดต่อสอบถาม</b></p>
+                <a href="https://www.facebook.com/?locale=th_TH"><img src="images/ft-icon-facebook.webp" alt=""
+                        class="ft_icon"></a>
+                <a href="https://www.messenger.com/?locale=th_TH"><img src="images/ft-icon-fb-massenger.webp" alt=""
+                        class="ft_icon"> </a>
+                <a href="https://line.me/th/"><img src="images/ft-icon-line.webp" alt="" class="ft_icon"></a>
+            </div>
+        </div>
+        <p></p>
+        <p>© 2024 SyncSphere . All rights reserved.</p><br>
+
+    </footer>
+</body>
+
+</html>
